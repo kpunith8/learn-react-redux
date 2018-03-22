@@ -1,0 +1,9 @@
+.App {
+  margin: auto;
+  width: 90%;
+}
+
+.user-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr)
+}

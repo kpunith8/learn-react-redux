@@ -1,2 +1,1 @@
-# learn-react-redux
-Sample React-Redux project to add users to database 
+Sample project using react, react-redux, redux-thunk and axios to implement the add user to real database.
