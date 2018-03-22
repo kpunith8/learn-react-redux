@@ -2,7 +2,7 @@ import { FETCH_USERS, ADD_NEW_USER } from './actionTypes';
 import axios from 'axios';
 
 export const fetchUsers = () => dispatch => {
-  fetch('http://localhost:3000/users/')
+  fetch('http://localhost:3000/users')
     .then(res => res.json())
     .then(users =>
       dispatch({
