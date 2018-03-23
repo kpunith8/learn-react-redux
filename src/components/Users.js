@@ -4,7 +4,7 @@ import { fetchUsers } from '../actions/userActions';
 
 class Users extends Component {
   componentWillMount() {
-    this.props.fetchUsers();
+    //this.props.fetchUsers();
   }
 
   componentWillReceiveProps(nextProps) {
