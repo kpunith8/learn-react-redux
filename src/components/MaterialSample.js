@@ -33,8 +33,7 @@ class MaterialSample extends Component {
               avatar="http://via.placeholder.com/50x50"
             />
             <CardMedia
-              overlay={<CardTitle title="Overlay title" subtitle="Overlay subtitle" />}
-            >
+              overlay={<CardTitle title="Overlay title" subtitle="Overlay subtitle" />}>
               <img src="http://via.placeholder.com/600x350" alt="No-image" className='img-plave' />
             </CardMedia>
           </Card>
